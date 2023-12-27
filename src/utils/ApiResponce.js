@@ -6,3 +6,5 @@ class ApiResponce{
         this.success = statusCode < 400;        // according to company and respective error the value will be change
     }
 }
+
+export { ApiResponce } 
